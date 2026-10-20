@@ -8,7 +8,7 @@ The goal is to transform isolated information into connected intelligence.
 
 ---
 
-## Core Function
+# Core Function
 
 CivilOS should not only store information.
 
@@ -17,22 +17,32 @@ CivilOS should understand relationships.
 Example:
 
 Water Scarcity
+
 ↓
+
 Agriculture
+
 ↓
+
 Food Supply
+
 ↓
+
 Inflation
+
 ↓
+
 Migration
+
 ↓
+
 Social Instability
 
 ---
 
-## Node Types
+# Node Types
 
-### Concepts
+## Concepts
 
 Examples:
 
@@ -43,7 +53,7 @@ Examples:
 
 ---
 
-### Events
+## Events
 
 Examples:
 
@@ -53,7 +63,7 @@ Examples:
 
 ---
 
-### Risks
+## Risks
 
 Examples:
 
@@ -63,7 +73,7 @@ Examples:
 
 ---
 
-### Opportunities
+## Opportunities
 
 Examples:
 
@@ -73,7 +83,7 @@ Examples:
 
 ---
 
-## Relationships
+# Relationships
 
 Examples:
 
@@ -86,7 +96,7 @@ Examples:
 
 ---
 
-## Agent Contributions
+# Agent Contributions
 
 All agents can add nodes.
 
@@ -96,6 +106,79 @@ All contributions are tracked and associated with the responsible agent.
 
 ---
 
-## Long-Term Goal
+# Relationship Validation Rules
+
+Relationships cannot be created from assumptions alone.
+
+Every relationship must be supported by:
+
+- Evidence.
+- Agent reasoning.
+- Traceable sources.
+- Validation by at least one additional agent.
+
+Examples:
+
+Valid:
+
+Water Scarcity
+
+↓
+
+causes
+
+↓
+
+Reduced Agricultural Output
+
+Supported by evidence and validation.
+
+Invalid:
+
+Water Scarcity
+
+↓
+
+causes
+
+↓
+
+Social Collapse
+
+Without evidence, validation, or reasoning trail.
+
+Invalid relationships must not be added to the graph.
+
+---
+
+# Graph Admission Policy
+
+CivilOS only adds nodes and relationships that satisfy one or more of the following conditions:
+
+- Supported by validated evidence.
+- Confirmed through agent review.
+- Linked to accepted knowledge.
+- Traceable to sources.
+
+CivilOS does not create:
+
+- Speculative relationships.
+- Unsupported causal chains.
+- Assumptions without evidence.
+- Fabricated graph structures.
+
+---
+
+# Long-Term Goal
 
 Create a living map of collective intelligence that continuously expands as CivilOS learns, discovers, and reasons.
+
+---
+
+# Core Principle
+
+The Knowledge Graph represents validated relationships, not assumptions.
+
+If a relationship cannot be justified, it must not be added to the graph.
+
+If it is not real, it is not shown.
