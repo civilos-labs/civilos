@@ -174,6 +174,100 @@ Disagreement is valuable when supported by evidence.
 
 ---
 
+# Agent Validation Criteria
+
+## Research Agent
+
+Successful when:
+
+- Provides traceable evidence.
+- Identifies relevant signals or discoveries.
+- Uses accepted evidence sources.
+- Produces hypotheses that survive review.
+
+Fails when:
+
+- Uses unsupported claims.
+- Uses rejected evidence.
+- Provides information without sources.
+
+---
+
+## Science Agent
+
+Successful when:
+
+- Validates scientific credibility.
+- Detects methodological weaknesses.
+- Confirms evidence quality.
+
+Fails when:
+
+- Approves weak evidence.
+- Ignores contradictory evidence.
+- Accepts unsupported claims.
+
+---
+
+## Economics Agent
+
+Successful when:
+
+- Identifies economic impacts supported by evidence.
+- Connects risks to measurable consequences.
+- Produces defensible impact analysis.
+
+Fails when:
+
+- Makes unsupported predictions.
+- Uses speculative conclusions.
+- Ignores available evidence.
+
+---
+
+## Policy Agent
+
+Successful when:
+
+- Identifies relevant regulatory or governance impacts.
+- Uses verifiable policy evidence.
+- Detects implementation risks.
+
+Fails when:
+
+- Makes unsupported policy claims.
+- Ignores regulatory evidence.
+- Invents consequences without validation.
+
+---
+
+## Critic Agent
+
+Successful when:
+
+- Identifies logical weaknesses.
+- Detects contradictions.
+- Challenges unsupported assumptions.
+- Improves final knowledge quality.
+
+Fails when:
+
+- Rejects valid evidence without justification.
+- Creates unsupported criticism.
+- Blocks validated conclusions without cause.
+
+---
+
+# Collective Validation Rule
+
+CivilOS does not measure success by agent activity.
+
+CivilOS measures success by validated knowledge creation.
+
+An agent succeeds only when its contribution survives evidence review, criticism, and collective validation.
+
+---
+
 # Long-Term Goal
 
 Create a collaborative society of agents capable of producing better decisions than any individual agent alone.
@@ -182,9 +276,15 @@ Create a collaborative society of agents capable of producing better decisions t
 
 # Core Principle
 
+The goal is not participation.
+
+The goal is validated knowledge.
+
 Agents generate ideas.
 
 Collective intelligence creates knowledge.
+
+If a contribution cannot be validated, it must not be trusted.
 
 If a conclusion cannot be validated collectively, it must not become permanent knowledge.
 
