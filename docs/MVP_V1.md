@@ -36,7 +36,11 @@ Demonstrate that a society of specialized AI agents can produce better conclusio
 - Long-term autonomous operation
 - Production-grade infrastructure
 
-The focus is a powerful demonstration.
+The focus is a real working prototype.
+
+CivilOS must generate conclusions through evidence, validation, memory, and collective reasoning.
+
+If a result cannot be justified, it must not be shown.
 
 ---
 
@@ -66,11 +70,11 @@ User asks:
 
 8. Memory Layer recalls previous knowledge.
 
-9. Knowledge Graph creates relationships.
+9. Knowledge Graph creates validated relationships.
 
-10. Trust Layer updates agent reputation.
+10. Trust Layer updates agent reputation based on observable performance.
 
-11. Final recommendation is generated.
+11. Collective reasoning generates a final conclusion.
 
 ---
 
@@ -80,17 +84,19 @@ CivilOS displays:
 
 - Final Conclusion
 - Supporting Evidence
-- Confidence Score
 - Counterarguments
 - Agent Contributions
 - Memory Updates
 - Knowledge Graph Updates
+- Validation Status
 
 ---
 
 ## Success Criteria
 
 The audience clearly understands that collective intelligence produced a stronger result than an individual agent could have generated alone.
+
+The audience can trace every conclusion back to evidence, validation, and reasoning.
 
 ---
 
@@ -100,4 +106,22 @@ The judges leave the demo believing that:
 
 CivilOS is not a chatbot.
 
+CivilOS is not a simulation.
+
 CivilOS is a collective intelligence system.
+
+CivilOS produces validated knowledge through evidence, memory, debate, and collective reasoning.
+
+---
+
+## Core CivilOS Principles
+
+### 1. If it is not real, it is not shown.
+
+### 2. No evidence, no knowledge.
+
+### 3. No validation, no memory.
+
+### 4. Trust is earned, not assigned.
+
+### 5. No single agent can create permanent knowledge alone.
