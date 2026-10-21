@@ -8,7 +8,7 @@ The objective is to ensure that agents do not operate independently, but as part
 
 ---
 
-## Communication Flow
+# Communication Flow
 
 User Request
 
@@ -46,39 +46,39 @@ Final Conclusion
 
 ---
 
-## Agent Roles
+# Agent Roles
 
-### Research Agent
+## Research Agent
 
 Discovers information, evidence, trends, and signals.
 
 ---
 
-### Science Agent
+## Science Agent
 
 Validates scientific credibility and factual support.
 
 ---
 
-### Economics Agent
+## Economics Agent
 
 Evaluates economic impact and consequences.
 
 ---
 
-### Policy Agent
+## Policy Agent
 
 Analyzes regulatory, governance, and policy effects.
 
 ---
 
-### Critic Agent
+## Critic Agent
 
 Challenges findings, identifies weaknesses, and prevents false conclusions.
 
 ---
 
-## Debate Process
+# Debate Process
 
 1. Research Agent proposes findings.
 
@@ -96,7 +96,7 @@ Challenges findings, identifies weaknesses, and prevents false conclusions.
 
 ---
 
-## Memory Integration
+# Memory Integration
 
 All discoveries are stored in Memory Layer.
 
@@ -106,6 +106,86 @@ Agent performance is recorded in the Trust Layer.
 
 ---
 
-## Long-Term Goal
+# Collective Knowledge Rule
+
+No single agent can create permanent knowledge alone.
+
+All permanent knowledge must:
+
+- Be supported by evidence.
+- Survive criticism.
+- Be validated by multiple agents.
+- Be traceable to sources.
+- Be eligible for Memory Layer admission.
+
+Individual agents may propose hypotheses.
+
+Collective intelligence validates knowledge.
+
+Only validated knowledge may enter permanent memory.
+
+---
+
+# Knowledge Creation Process
+
+Hypothesis
+
+↓
+
+Evidence Collection
+
+↓
+
+Validation
+
+↓
+
+Challenge
+
+↓
+
+Cross-Validation
+
+↓
+
+Accepted Knowledge
+
+↓
+
+Memory Layer
+
+↓
+
+Knowledge Graph
+
+---
+
+# Collective Decision Principle
+
+Agents do not compete to be right.
+
+Agents collaborate to discover the most defensible conclusion.
+
+The objective is not agreement.
+
+The objective is validated knowledge.
+
+Disagreement is valuable when supported by evidence.
+
+---
+
+# Long-Term Goal
 
 Create a collaborative society of agents capable of producing better decisions than any individual agent alone.
+
+---
+
+# Core Principle
+
+Agents generate ideas.
+
+Collective intelligence creates knowledge.
+
+If a conclusion cannot be validated collectively, it must not become permanent knowledge.
+
+If it is not real, it is not shown.
