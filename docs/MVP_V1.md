@@ -100,6 +100,37 @@ The audience can trace every conclusion back to evidence, validation, and reason
 
 ---
 
+## Measurable Success Criteria
+
+A CivilOS investigation is successful when:
+
+- Every accepted conclusion has supporting evidence.
+- Every accepted conclusion survives Critic Agent review.
+- Every accepted conclusion is validated by at least two agents.
+- Every memory entry is traceable to a source.
+- Every graph relationship is evidence-backed.
+- No fabricated metrics are displayed.
+- No unsupported claims become permanent knowledge.
+
+---
+
+## System Validation Metrics
+
+CivilOS tracks:
+
+- Validated Hypotheses
+- Rejected Hypotheses
+- Evidence Sources Used
+- Memory Entries Created
+- Knowledge Graph Relationships Added
+- Cross-Validated Conclusions
+
+These metrics must be calculated from actual system activity.
+
+If a metric cannot be calculated, it must not be displayed.
+
+---
+
 ## Winning Condition
 
 The judges leave the demo believing that:
