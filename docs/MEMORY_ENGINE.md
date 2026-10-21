@@ -177,6 +177,23 @@ Knowledge is never silently deleted.
 
 ---
 
+# Knowledge Lifecycle
+
+Knowledge enters CivilOS through validation.
+
+Knowledge may then:
+
+- Remain Active
+- Become Challenged
+- Become Updated
+- Become Deprecated
+
+Knowledge is never accepted permanently.
+
+Knowledge remains open to future review.
+
+---
+
 # Memory Flow
 
 Accepted Knowledge
@@ -208,6 +225,93 @@ Review
 ↓
 
 Update
+
+---
+
+# Memory Operations
+
+The Memory Engine exposes the following operations.
+
+## Store Knowledge
+
+Input:
+
+- Accepted Knowledge
+
+Output:
+
+- Memory Record
+
+Purpose:
+
+Persist validated knowledge.
+
+---
+
+## Retrieve Knowledge
+
+Input:
+
+- Query
+- Context
+
+Output:
+
+- Relevant Memory Records
+
+Purpose:
+
+Support future investigations.
+
+---
+
+## Update Knowledge
+
+Input:
+
+- Existing Memory Record
+- New Validated Evidence
+
+Output:
+
+- Updated Memory Record
+
+Purpose:
+
+Keep knowledge current and accurate.
+
+---
+
+## Challenge Knowledge
+
+Input:
+
+- Existing Memory Record
+- Contradictory Evidence
+
+Output:
+
+- Challenged Status
+
+Purpose:
+
+Trigger revalidation.
+
+---
+
+## Deprecate Knowledge
+
+Input:
+
+- Disproven Knowledge
+
+Output:
+
+- Deprecated Status
+
+Purpose:
+
+Preserve history while preventing future misuse.
 
 ---
 
@@ -292,6 +396,31 @@ Possible outcomes:
 Contradicting knowledge must be linked rather than erased.
 
 CivilOS preserves knowledge history.
+
+---
+
+# Memory Engine vs Knowledge Graph
+
+The Memory Engine and Knowledge Graph serve different purposes.
+
+Memory Engine:
+
+- Stores validated knowledge.
+- Preserves investigation history.
+- Tracks revisions.
+- Stores failures.
+- Supports future reasoning.
+
+Knowledge Graph:
+
+- Represents relationships.
+- Connects knowledge entities.
+- Enables navigation.
+- Enables relationship discovery.
+
+Memory preserves knowledge.
+
+Knowledge Graph connects knowledge.
 
 ---
 
