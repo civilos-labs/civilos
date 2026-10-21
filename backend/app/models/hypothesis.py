@@ -48,7 +48,7 @@ class Hypothesis:
         investigation_id: UUID,
         statement: str,
         proposed_by: UUID,
-    ) -> Hypothesis:
+    ) -> "Hypothesis":
         """
         Create a new provisional hypothesis.
 
@@ -76,7 +76,7 @@ class Hypothesis:
             updated_at=now,
         )
 
-    def start_investigation(self) -> Hypothesis:
+    def start_investigation(self) -> "Hypothesis":
         """
         Move a proposed hypothesis into active investigation.
         """
@@ -85,7 +85,7 @@ class Hypothesis:
             HypothesisStatus.INVESTIGATING
         )
 
-    def challenge(self) -> Hypothesis:
+    def challenge(self) -> "Hypothesis":
         """
         Mark the hypothesis as challenged.
 
@@ -96,7 +96,7 @@ class Hypothesis:
             HypothesisStatus.CHALLENGED
         )
 
-    def mark_supported(self) -> Hypothesis:
+    def mark_supported(self) -> "Hypothesis":
         """
         Record that eligible supporting evidence exists.
 
@@ -107,7 +107,7 @@ class Hypothesis:
             HypothesisStatus.SUPPORTED
         )
 
-    def mark_cross_validated(self) -> Hypothesis:
+    def mark_cross_validated(self) -> "Hypothesis":
         """
         Record completion of the required independent review.
 
@@ -118,7 +118,7 @@ class Hypothesis:
             HypothesisStatus.CROSS_VALIDATED
         )
 
-    def accept(self) -> Hypothesis:
+    def accept(self) -> "Hypothesis":
         """
         Record an accepted validation outcome.
 
@@ -130,7 +130,7 @@ class Hypothesis:
             HypothesisStatus.ACCEPTED
         )
 
-    def reject(self) -> Hypothesis:
+    def reject(self) -> "Hypothesis":
         """
         Record a rejected validation outcome.
 
@@ -141,7 +141,7 @@ class Hypothesis:
             HypothesisStatus.REJECTED
         )
 
-    def mark_insufficient_evidence(self) -> Hypothesis:
+    def mark_insufficient_evidence(self) -> "Hypothesis":
         """
         Record that available evidence cannot responsibly support
         acceptance or rejection.
@@ -151,7 +151,7 @@ class Hypothesis:
             HypothesisStatus.INSUFFICIENT_EVIDENCE
         )
 
-    def require_revalidation(self) -> Hypothesis:
+    def require_revalidation(self) -> "Hypothesis":
         """
         Require a new validation process after a material challenge
         or new contradictory evidence.
@@ -164,7 +164,7 @@ class Hypothesis:
     def revise_statement(
         self,
         new_statement: str,
-    ) -> Hypothesis:
+    ) -> "Hypothesis":
         """
         Create a new version of the hypothesis statement.
 
@@ -210,7 +210,7 @@ class Hypothesis:
     def _transition_to(
         self,
         new_status: HypothesisStatus,
-    ) -> Hypothesis:
+    ) -> "Hypothesis":
         """
         Apply a controlled and auditable-ready state transition.
 
@@ -221,7 +221,6 @@ class Hypothesis:
         valid_transitions = {
             HypothesisStatus.PROPOSED: {
                 HypothesisStatus.INVESTIGATING,
-                HypothesisStatus.REJECTED,
             },
             HypothesisStatus.INVESTIGATING: {
                 HypothesisStatus.CHALLENGED,
