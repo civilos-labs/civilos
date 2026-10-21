@@ -86,6 +86,62 @@ Trust decreases when:
 
 ---
 
+# Reputation Algorithm
+
+Trust is calculated from observable agent performance.
+
+Every agent starts with a neutral reputation score of 0.
+
+### Positive Events
+
++3 Accepted Knowledge Contribution
+
++2 Validated Evidence Contribution
+
++2 Successful Cross-Validation
+
++1 Useful Memory Contribution
+
++1 Identified Critical Weakness
+
+### Negative Events
+
+-2 Rejected Evidence Submission
+
+-2 Failed Validation
+
+-3 Unsupported Claim
+
+-3 Invalid Knowledge Contribution
+
+-5 Repeated Critical Error
+
+---
+
+# Reputation Rules
+
+Trust scores must be calculated automatically.
+
+Trust scores must be traceable to specific actions.
+
+Trust scores cannot be manually assigned.
+
+Agents cannot gain trust through activity alone.
+
+Agents gain trust only through validated contributions.
+
+---
+
+# Reputation Visibility Rule
+
+If reputation cannot be calculated from recorded events, it must not be displayed.
+
+CivilOS must never invent reputation values.
+
+Every trust score must be explainable through observable history.
+
+---
+
 # Trust Visibility Rule
 
 If trust cannot be measured objectively, it must not be displayed.
@@ -124,4 +180,10 @@ Evidence follows validation.
 
 Validation follows reasoning.
 
+Reputation is earned through validated contributions.
+
+Reputation is lost through validated failures.
+
 If trust cannot be justified, it must not be shown.
+
+If reputation cannot be audited, it must not be shown.
